@@ -86,7 +86,14 @@
         </form>
       </div>
 
-
+      <div class="filter-card">
+        <h3>Filter</h3>
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="income">Income</button>
+          <button class="filter-btn" data-filter="expense">Expenses</button>
+        </div>
+      </div>
 
       <div class="transactions-card">
         <div class="transactions-header">
@@ -98,7 +105,10 @@
         </div>
       </div>
 
-
+      <div class="summary-card">
+        <h2>Spending by Category</h2>
+        <div id="category-summary" class="category-bars"></div>
+      </div>
     </div>
 
     <script src="script.js"></script>
